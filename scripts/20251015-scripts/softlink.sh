@@ -17,6 +17,7 @@ for mem in 1 6; do
 	done
 done
 
+cd $CUR_DIR
 
 end_time=$(date +%s)
 duration=$((end_time - start_time))
